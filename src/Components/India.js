@@ -42,7 +42,7 @@ class India extends React.Component {
 
                         <Card >
                             
-                            <Card.Body className='text-center bg-primary p-4' style={{color: "white"}}>
+                            <Card.Body className='text-center bg-primary p-5' style={{color: "white"}}>
                                 <Card.Title>TOTAL CASES</Card.Title>
                                 <h3>{this.state.data.cases}</h3>
                                 <Card.Text>
@@ -54,7 +54,7 @@ class India extends React.Component {
                     </div>
                     <div className="col-md-3 ">
                     <Card >
-                            <Card.Body className='text-center bg-warning p-4' style={{color: "white"}}>
+                            <Card.Body className='text-center bg-warning p-5' style={{color: "white"}}>
                                 <Card.Title>ACTIVE CASES</Card.Title>
                                 <h3>{this.state.data.active}</h3>
                                 <Card.Text>
@@ -67,7 +67,7 @@ class India extends React.Component {
                     </div>
                     <div className="col-md-3 ">
                     <Card >
-                            <Card.Body className='text-center bg-success p-4' style={{color: "white"}}>
+                            <Card.Body className='text-center bg-success p-5' style={{color: "white"}}>
                                 <Card.Title>RECOVERED</Card.Title>
                                 <h3>{this.state.data.recovered}</h3>
                                 <Card.Text>
@@ -80,7 +80,7 @@ class India extends React.Component {
                     </div>
                     <div className="col-md-3 ">
                     <Card >
-                            <Card.Body className='text-center  bg-danger p-4' style={{color: "white"}}>
+                            <Card.Body className='text-center  bg-danger p-5' style={{color: "white"}}>
                                 <Card.Title>DEATHS</Card.Title>
                                 <h3>{this.state.data.deaths}</h3>
                                 <Card.Text>
